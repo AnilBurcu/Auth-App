@@ -3,7 +3,7 @@ import axios from 'axios';
 import {navigate} from '../navigation/RootNavigation';
 
 const rawApi = axios.create({
-  baseURL: 'http://192.168.1.10:5500/api/v1', // 👈 Your backend base URL
+  baseURL: 'http://192.168.1.10:5500/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
